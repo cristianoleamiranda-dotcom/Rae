@@ -33,6 +33,6 @@ docs/               documentación para desarrolladores
 
 📚 Guía técnica completa: [docs/desarrolladores.md](docs/desarrolladores.md)
 
+## ORCID
 
 ORCID: [0009-0003-9884-8666](https://orcid.org/0009-0003-9884-8666)
-
