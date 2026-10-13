@@ -32,3 +32,7 @@ docs/               documentación para desarrolladores
 `three` · `pixi.js` · `lottie-web` · `Vite`
 
 📚 Guía técnica completa: [docs/desarrolladores.md](docs/desarrolladores.md)
+
+
+ORCID: [0009-0003-9884-8666](https://orcid.org/0009-0003-9884-8666)
+
