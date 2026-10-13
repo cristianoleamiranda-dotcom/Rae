@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rae — programa web de animación: 3D en tiempo real, pixel art y motion design." />
+    <title>Rae — Programa web de animación</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>" />
+  </head>
+  <body>
+    <div id="scene-3d" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="nav__logo" href="#inicio"><span class="nav__mark">◆</span> Rae</a>
+      <nav class="nav__links">
+        <a href="#motor3d">Motor 3D</a>
+        <a href="#pixel">Pixel</a>
+        <a href="#motion">Motion</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <p class="hero__kicker">programa web</p>
+        <h1 class="hero__title">Rae</h1>
+        <p class="hero__tagline">Animación que se siente viva</p>
+        <p class="hero__sub">
+          Tiempo real 3D · pixel art · motion design — un solo lienzo en tu navegador.
+        </p>
+        <a class="btn" href="#motor3d">Explorar</a>
+        <div class="hero__hint" aria-hidden="true">
+          <span></span>
+          desliza
+        </div>
+      </section>
+
+      <section class="panel" id="motor3d">
+        <div class="card card--glass">
+          <p class="card__tag">01 · Tiempo real</p>
+          <h2>Motor 3D</h2>
+          <p>
+            Detrás de esta página gira una escena <strong>three.js</strong> renderizada
+            a 60 fps: luces, materiales y partículas responden a tu cursor.
+            WebGL/WebGPU, import maps y cero plugins externos.
+          </p>
+          <ul class="chips">
+            <li>three.js r186</li>
+            <li>MeshPhysicalMaterial</li>
+            <li>Parallax con puntero</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="panel panel--split" id="pixel">
+        <div class="card card--glass">
+          <p class="card__tag">02 · 8 bits</p>
+          <h2>Pixel art vivo</h2>
+          <p>
+            Un sprite dibujado píxel a píxel con <strong>PixiJS v8</strong>, animado
+            en el ticker del motor: respira, parpadea y deja rastro de píxeles.
+            Ideal para personajes, íconos y juegos ligeros.
+          </p>
+          <ul class="chips">
+            <li>PixiJS v8</li>
+            <li>Sprite procedural</li>
+            <li>Partículas 2D</li>
+          </ul>
+        </div>
+        <div class="card card--canvas">
+          <canvas id="pixel-canvas"></canvas>
+          <p class="card__caption">sprite · 16×16 px · 60 fps</p>
+        </div>
+      </section>
+
+      <section class="panel panel--split panel--reverse" id="motion">
+        <div class="card card--glass">
+          <p class="card__tag">03 · Motion design</p>
+          <h2>Movimiento con intención</h2>
+          <p>
+            Animación vectorial <strong>Lottie</strong> con los principios de Disney
+            aplicados a interfaces: timing, easing y coreografía pensados antes
+            del código. Se ve nítido a cualquier tamaño.
+          </p>
+          <ul class="chips">
+            <li>lottie-web</li>
+            <li>12 principios Disney</li>
+            <li>SVG escalable</li>
+          </ul>
+        </div>
+        <div class="card card--canvas card--lottie">
+          <div id="lottie-player"></div>
+          <p class="card__caption">lottie · vector · loop</p>
+        </div>
+      </section>
+
+      <section class="closing">
+        <h2>Un lienzo, tres lenguajes de movimiento</h2>
+        <p>Rae une 3D, pixel y motion en una experiencia web moderna.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p><span class="nav__mark">◆</span> Rae — programa web</p>
+      <p class="footer__meta">three.js · PixiJS · lottie-web · construido con Vite</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

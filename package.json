@@ -1,0 +1,31 @@
+{
+  "name": "rae",
+  "version": "1.0.0",
+  "description": "Rae — programa web de animación (3D, pixel art, motion design)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianoleamiranda-dotcom/Rae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianoleamiranda-dotcom/Rae/issues"
+  },
+  "homepage": "https://github.com/cristianoleamiranda-dotcom/Rae#readme",
+  "dependencies": {
+    "lottie-web": "^5.13.0",
+    "pixi.js": "^8.22.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "type": "module"
+}
