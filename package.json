@@ -1,0 +1,25 @@
+{
+  "name": "rae",
+  "version": "1.0.0",
+  "description": "programa web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianoleamiranda-dotcom/Rae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianoleamiranda-dotcom/Rae/issues"
+  },
+  "homepage": "https://github.com/cristianoleamiranda-dotcom/Rae#readme",
+  "dependencies": {
+    "lottie-web": "^5.13.0",
+    "pixi.js": "^8.22.0",
+    "three": "^0.186.1"
+  }
+}
